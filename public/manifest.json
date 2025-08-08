@@ -1,0 +1,19 @@
+{
+  "name": "Sổ tay sức khỏe",
+  "short_name": "Health Handbook",
+  "description": "Ghi chép kinh nghiệm chữa bệnh, phòng bệnh và sống lành mạnh",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "categories": ["health", "medical", "lifestyle"],
+  "lang": "vi",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}

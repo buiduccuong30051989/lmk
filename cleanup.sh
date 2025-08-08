@@ -1,0 +1,1 @@
+rm /Users/macintoshhd/personal/bk/src/data/test.jsx
