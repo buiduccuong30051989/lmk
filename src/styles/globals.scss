@@ -5,7 +5,15 @@
 // Import custom font
 @font-face {
   font-family: 'HighSpirited';
-  src: url('/src/assets/1FTV-VIP-High-Spirited.otf') format('opentype');
+  src: url('../assets/1FTV-VIP-High-Spirited.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Simplesnails';
+  src: url('../assets/Simplesnails.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -72,6 +80,10 @@
   .font-high-spirited {
     font-family: 'HighSpirited', serif;
   }
+}
+
+.font-simplesnails {
+  font-family: 'Simplesnails', serif;
 }
 
 // Custom SCSS variables

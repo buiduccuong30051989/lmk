@@ -5,7 +5,8 @@ export default {
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    './src/**/*.{ts,tsx, js, jsx}',
+    './src//data/*.{ts,tsx, js, jsx}',
   ],
   prefix: "",
   theme: {
@@ -56,6 +57,10 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      fontFamily: {
+        'high-spirited': ['HighSpirited', 'serif'],
+        'simplesnails': ['Simplesnails', 'serif'],
       },
       keyframes: {
         "accordion-down": {

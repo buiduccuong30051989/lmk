@@ -5,13 +5,13 @@ const aboutData = (
     {/* Single Card Content */}
     <Card className="bg-white/95 backdrop-blur-sm shadow-2xl border-0">
       <CardContent className="lg:p-12 p-4 md:p-16">
-        <div className="prose prose-lg max-w-none font-high-spirited leading-none" style={{letterSpacing: '2px'}}>
+        <div className="prose prose-lg max-w-none font-simplesnails" style={{letterSpacing: '2px'}}>
           <p className="text-6xl md:text-6xl lg:text-4xl text-gray-800  mb-8">
-            <span className="text-6xl md:text-4xl lg:text-5xl text-emerald-600">Xin chào,</span>
+            <span className="text-6xl md:text-4xl lg:text-5xl">Xin chào,</span>
           </p>
           
           <p className="text-4xl md:text-5xl lg:text-6xl text-gray-700  mb-8">
-            Tôi là <span className="text-emerald-700">Lại Minh Kha</span>, một người cha, người chồng, và giờ là một người ông với những đứa cháu nhỏ yêu quý. Cuộc đời đã dạy tôi rằng sức khỏe là món quà vô giá nhất. Không có nó, mọi thứ khác đều trở nên mờ nhạt.
+            Tôi là <span className="text-green-700">Lại Minh Kha</span>, một người cha, người chồng, và giờ là một người ông với những đứa cháu nhỏ yêu quý. Cuộc đời đã dạy tôi rằng sức khỏe là món quà vô giá nhất. Không có nó, mọi thứ khác đều trở nên mờ nhạt.
           </p>
 
           <p className="text-4xl md:text-5xl lg:text-6xl text-gray-700  mb-8">
@@ -19,7 +19,7 @@ const aboutData = (
           </p>
 
           <p className="text-4xl md:text-5xl lg:text-6xl text-gray-700  mb-8">
-            Tôi chia sẻ những ghi chép này để lan tỏa điều giản dị: <span className="text-emerald-600">hãy chăm sóc cơ thể, yêu thương tâm hồn, và trân trọng cuộc sống</span>. Sống khỏe không chỉ là không bệnh, mà là sống với trái tim rộng mở và niềm vui mỗi ngày.
+            Tôi chia sẻ những ghi chép này để lan tỏa điều giản dị: <span className="text-green-600">hãy chăm sóc cơ thể, yêu thương tâm hồn, và trân trọng cuộc sống</span>. Sống khỏe không chỉ là không bệnh, mà là sống với trái tim rộng mở và niềm vui mỗi ngày.
           </p>
 
           <p className="text-4xl md:text-5xl lg:text-6xl text-gray-700  mb-12">
@@ -28,7 +28,7 @@ const aboutData = (
 
           {/* Signature Section */}
           <div className="text-right  pt-8">
-            <p className="text-4xl md:text-5xl lg:text-6xl italic text-emerald-700 font-medium mb-4">
+            <p className="text-4xl md:text-5xl lg:text-6xl italic text-green-700 font-medium mb-4">
               Trân trọng,
             </p>
             <p className="text-4xl md:text-5xl lg:text-5xl ">
@@ -38,17 +38,6 @@ const aboutData = (
         </div>
       </CardContent>
     </Card>
-
-    {/* Bottom Quote */}
-    <div className="text-center mt-8">
-      <div className="inline-flex items-center gap-4 bg-gradient-to-r from-emerald-50 to-blue-50 px-8 py-4 rounded-full border border-emerald-200 shadow-lg">
-        <span className="text-3xl">🌱</span>
-        <p className="text-emerald-700 font-medium text-4xl md:text-2xl font-high-spirited" style={{letterSpacing: '2px'}}>
-          Sức khỏe là hạnh phúc
-        </p>
-        <span className="text-3xl">💚</span>
-      </div>
-    </div>
   </div>
 )
 
