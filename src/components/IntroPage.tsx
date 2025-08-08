@@ -40,7 +40,8 @@ const IntroPage = ({ onEnter, onGoToAbout, onVideoLoaded }: IntroPageProps) => {
     words.forEach((word, index) => {
       const span = document.createElement('span')
       span.textContent = word
-      span.className = 'word inline-block opacity-0 mr-2'
+      span.style.letterSpacing = '2px'
+      span.className = 'word inline-block opacity-0 mr-4'
       span.style.transform = 'translateY(30px) scale(0.9) rotateX(-15deg)'
       quote.appendChild(span)
     })
@@ -121,7 +122,7 @@ const IntroPage = ({ onEnter, onGoToAbout, onVideoLoaded }: IntroPageProps) => {
     >
       <div className="relative z-10 max-w-4xl mx-auto px-4 md:px-6 text-center ">
         {/* Quote */}
-        <div style={{letterSpacing: '5px'}} ref={quoteRef} className="mb-12 md:mb-16 text-5xl md:text-6xl lg:text-8xl xl:text-10xl text-white leading-none font-high-spirited letter-space">
+        <div style={{letterSpacing: '5px'}} ref={quoteRef} className="[word-spacing:0.16rem] mb-12 md:mb-16 text-5xl md:text-6xl lg:text-8xl xl:text-10xl text-white leading-none font-high-spirited letter-space">
           <div className=" mb-6 max-w-5xl mx-auto drop-shadow-2xl">
             "{/* Text will be populated by JavaScript */}"
           </div>

@@ -5,7 +5,7 @@ const aboutData = (
     {/* Single Card Content */}
     <Card className="bg-white/95 backdrop-blur-sm shadow-2xl border-0">
       <CardContent className="lg:p-12 p-4 md:p-16">
-        <div className="prose prose-lg max-w-none font-simplesnails" style={{letterSpacing: '2px'}}>
+        <div className="prose prose-lg max-w-none font-simplesnails" style={{letterSpacing: '2px', wordSpacing: '4px'}}>
           <p className="text-6xl md:text-6xl lg:text-4xl text-gray-800  mb-8">
             <span className="text-6xl md:text-4xl lg:text-5xl">Xin chào,</span>
           </p>
