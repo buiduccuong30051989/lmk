@@ -3,8 +3,21 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ main ]
+<<<<<<< Updated upstream
   pull_request:
     branches: [ main ]
+=======
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+>>>>>>> Stashed changes
 
 jobs:
   build-and-deploy:
@@ -18,7 +31,10 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '18'
+<<<<<<< Updated upstream
         cache: 'pnpm'
+=======
+>>>>>>> Stashed changes
         
     - name: Install pnpm
       uses: pnpm/action-setup@v2
@@ -33,9 +49,23 @@ jobs:
       env:
         NODE_ENV: production
         
+<<<<<<< Updated upstream
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
+=======
+    - name: Setup Pages
+      uses: actions/configure-pages@v3
+        
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: './dist'
+        
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
+>>>>>>> Stashed changes
